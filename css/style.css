@@ -1,0 +1,246 @@
+body {
+    color: #555252;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0px;
+    padding: 0px;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* HEADER */
+.site-navigation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #0f0101;
+    font-family: "Open Sans Bold", sans-serif;
+    font-weight: 700;
+}
+
+.site-navigation a:hover {
+    color: #1abc9c;
+}
+
+.site-navigation {
+    width: 476px;
+    float: right;
+    padding: 0;
+}
+
+.site-navigation li {
+    list-style: none;
+    margin-top: 20px;
+    float: left;
+    margin-right: 34px;
+}
+
+.site-navigation li:last-child {
+    margin-right: 0px;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 36px;
+    float: left;
+    font-family: "Roboto Light", serif;
+    margin-bottom: 0px;
+}
+
+.logo::first-letter {
+    color: #1abc9c;
+    font-family: "Roboto Black", serif;
+}
+
+/* MAIN */
+.title-products h2 {
+    font-size: 48px;
+    line-height: 58px;
+    color: #515151;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Roboto Black", serif;
+    margin-top: 96px;
+}
+
+.title-products h2:after {
+    content: "";
+    display: block;
+    background-color: #1abc9c;
+    height: 8px;
+    width: 164px;
+    margin: 26px 472px;
+}
+
+.product li {
+    list-style: none;
+    text-transform: uppercase;
+    float: left;
+    height: 322px;
+    width: 254px;
+    background-color: #e9f0fd;
+}
+
+.product ul {
+    padding: 0;
+}
+
+.product a {
+    text-decoration: none;
+}
+
+.product-name {
+    background-color: #323232;
+    color: #ffffff;
+    height: 40px;
+    width: 200px;
+    float: left;
+    font-size: 18px;
+    font-family: "Roboto Black", serif;
+}
+
+.product-name p {
+    display: inline-block;
+    margin: 0;
+    font-family: "Roboto Black", serif;
+    font-size: 18px;
+    line-height: 22px;
+    float: right;
+    margin: 12px 12px 0 0;
+    font-weight: bold;
+}
+
+.product-name h3 {
+    margin: 12px 0 0 14px;
+    display: inline-block;
+}
+
+.product-card {
+    height: 282px;
+    width: 254px;
+}
+
+.product-price {
+    color: #ffffff;
+    background-color: #818181;
+    float: right;
+    height: 40px;
+    width: 54px;
+    font-size: 18px;
+    font-family: "Roboto Black", serif;
+}
+
+.product-price h3 {
+    margin: 12px 6px;
+}
+
+.product-price h3::before {
+    content: "\0024";
+}
+
+.product li:nth-of-type(-n + 4) {
+    margin-top: 86px;
+}
+
+.product li:nth-of-type(n + 5) {
+    margin-top: 30px;
+}
+
+.product li:nth-of-type(n + 1) {
+    margin-right: 30px;
+}
+
+.product li:nth-of-type(4n + 4) {
+    margin-right: 0px;
+}
+
+.link-info:hover .product-name {
+    background-color: rgb(26, 188, 156);
+}
+
+.link-info:hover .product-price {
+    background-color: #7fd9c7;
+}
+
+/* NEWS */
+
+.title-news h2 {
+    font-size: 48px;
+    line-height: 58px;
+    color: #555252;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Roboto Black", serif;
+}
+
+.title-news h2:after {
+    content: "";
+    display: block;
+    background: #1abc9c;
+    height: 8px;
+    width: 164px;
+    margin: 26px 472px;
+}
+
+.title-news {
+    margin: 100px 0 80px;
+}
+
+.blog-news li {
+    list-style: none;
+    float: left;
+    height: 540px;
+    width: 350px;
+}
+
+.blog-news li:nth-of-type(-n + 2) {
+    margin-right: 30px;
+}
+
+.blog-news ul {
+    padding: 0;
+}
+
+.blog-news h2 {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Open Sans Semibold", serif;
+    color: #555252;
+    margin-top: 14px;
+}
+
+.blog-news h2:after {
+    content: "";
+    display: block;
+    background-color: #1abc9c;
+    height: 4px;
+    width: 136px;
+    margin-top: 14px;
+}
+
+.blog-news p {
+    margin-top: 28px;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Open Sans Regular", serif;
+    color: #555252;
+}
+
+.blog-news button {
+    height: 50px;
+    width: 160px;
+    background-color: #4ec6ab;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    font-family: "Open Sans Light", serif;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 14px;
+}
