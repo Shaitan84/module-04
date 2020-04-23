@@ -27,14 +27,11 @@ body {
 }
 
 .site-navigation {
-<<<<<<< HEAD
   float: right;
   padding: 0;
-=======
-    width: 500px;
-    float: right;
-    padding: 0;
->>>>>>> 85fedc0d1a89900099c0af8a4de2a9e57986e1e4
+  width: 500px;
+  float: right;
+  padding: 0;
 }
 
 .site-navigation li {
