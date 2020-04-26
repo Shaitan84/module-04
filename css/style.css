@@ -3,6 +3,8 @@ body {
   font-size: 14px;
   line-height: 17px;
   padding: 0px;
+}
+.conteiner {
   width: 1110px;
   margin: 0 auto;
 }
@@ -29,7 +31,6 @@ body {
 .site-navigation {
   float: right;
   padding: 0;
-  width: 500px;
   float: right;
   padding: 0;
 }
